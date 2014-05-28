@@ -1,0 +1,13 @@
+<div class="col-sm-12">
+<input type="text" ng-model="model" placeholder="Ingrese nombre o cargo"  class="form-control"  ng-keypress="autocomplete(model)" ng-keydown="selected=false"/>
+
+    <br/>
+</div>
+        <br>
+        <br>
+    <div class="items" ng-hide="!items.length || selected || !model.length">
+    <div class="item" ng-repeat="item in items" ng-click="handleSelection(item.fields.jefe[0])" style="cursor:pointer" ng-class="{active:isCurrent($index)}" ng-mouseenter="setCurrent($index)">
+        <span class="title">{{item.fields.nombre[0]}}</span>
+        <p class="subtitle">{{item.fields.cargo[0]}}</p>
+    </div>
+</div>

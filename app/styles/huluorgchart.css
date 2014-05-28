@@ -1,0 +1,160 @@
+/* Copyright 2008 Hulu Inc. All Rights Reserved. */
+
+.hulu-orgchart-table {
+    border: 0;
+}
+
+.hulu-orgchart-table * {
+    margin: 0;
+    padding: 0;
+}
+
+.hulu-orgchart-space-small {
+    width: 4px;
+    height: 1px;
+    border: 0;
+}
+
+.hulu-orgchart-space-medium {
+    width: 10px;
+    height: 1px;
+    border: 0;
+}
+
+.hulu-orgchart-space-large {
+    width: 16px;
+    height: 1px;
+    border: 0;
+}
+
+.hulu-orgchart-noderow-small {
+    height: 12px;
+    border: 0;
+}
+
+.hulu-orgchart-noderow-medium {
+    height: 30px;
+    border: 0;
+}
+
+.hulu-orgchart-noderow-large {
+    height: 46px;
+    border: 0;
+}
+
+.hulu-orgchart-connrow-small {
+    height: 1px;
+    font-size: 1px;
+}
+
+.hulu-orgchart-connrow-medium {
+    height: 1px;
+    font-size: 1px;
+}
+
+.hulu-orgchart-connrow-large {
+    height: 2px;
+    font-size: 2px;
+}
+
+.hulu-orgchart-node {
+    padding: 0px;
+    height: 40px;
+    width: 80px;
+    overflow: hide;
+    text-align: center;
+    vertical-align: middle;
+    font-family: arial,helvetica;
+    cursor: default;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 3px;
+    min-width: 120px;
+    #border: 2px solid #b5d9ea;
+    #background-color: #edf7ff;
+    #background: -webkit-gradient(linear, left top, left bottom, from(#edf7ff), to(#cde7ee));
+}
+
+.hulu-orgchart-nodesel {
+    border: 2px solid #e3ca4b;
+    background-color: #A0A0A0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff7ae), to(#eee79e));
+}
+
+.hulu-orgchart-node-small {
+    font-size: 0.6em;
+}
+
+.hulu-orgchart-node-medium {
+    font-size: 0.8em;
+}
+
+.hulu-orgchart-node-large {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.hulu-orgchart-linenode {
+    border: 0;
+    height: 8px;
+    min-width: 15px;
+}
+
+.hulu-orgchart-lineleft {
+    border-left: 1px solid #3388dd;
+}
+
+.hulu-orgchart-lineright {
+    border-right: 1px solid #3388dd;
+}
+
+.hulu-orgchart-linebottom {
+    border-bottom: 1px solid #3388dd;
+}
+
+.hulu-orgchart-node {
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+
+.hulu-orgchart-node-FTE {
+    #background-color: #88B527;
+    background-image: url(http://organizational-chart-gadget.googlecode.com/svn/trunk/fte-bg.gif);
+    color: white;
+    border-color: #355B12;
+}
+
+.hulu-orgchart-node-Intern {
+    #background-color: #F94EF9;
+    background-image: url(http://organizational-chart-gadget.googlecode.com/svn/trunk/intern-bg.gif);
+    border-color: #F404F4;
+}
+
+.hulu-orgchart-node-TBH {
+    #background-color: #FFFF94;
+    background-image: url(http://organizational-chart-gadget.googlecode.com/svn/trunk/tbh-bg.gif);
+    border-color: FFFF2F;
+}
+
+.hulu-orgchart-node-Team {
+    #background-color: #3DC4F6;
+    background-image: url(http://organizational-chart-gadget.googlecode.com/svn/trunk/team-bg.gif);
+    font-size: 9px;
+    font-weight: bold;
+    color: white;
+    height: 20px;
+    border-color: #BAEAFC;
+}
+
+.hulu-orgchart-node-name {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.hulu-orgchart-node-title {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 8px;
+}

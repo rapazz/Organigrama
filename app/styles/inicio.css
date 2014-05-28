@@ -1,0 +1,31 @@
+
+.ng-pageslide {
+    background: #eee;
+}
+
+.items{
+    width: 300px;
+    margin: auto;
+    text-align: left;
+    margin-top: 10px;
+    background: #F2F2F2;
+    padding: 3px;
+    z-index: 4;
+    position:absolute;
+    float:right;
+    box-shadow: 0px 0px 5px #CCC;
+}
+
+.title{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.subtitle{
+    font-size: 10px;
+    color: #444;
+}
+.active{
+    background-color: rgba(209, 209, 209, 0.96);
+    color:#f2f2f2;
+}
